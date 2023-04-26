@@ -6,3 +6,46 @@
 	padding:0;
 	box-sizing:border-box;
 }
+
+/* Generics */
+
+header
+{
+    display:flex;
+    background-color:#ADD8E6;
+    height:70px;
+}
+
+/* Utilities */
+
+.width-70
+{
+    width:70%;
+}
+
+.borders
+{
+    border:2px dashed black;
+}
+
+/* Header */
+
+.navigation-container
+{
+    display:flex;
+    background-color:#DAA520;
+    height:40px;
+    margin:auto;
+}
+
+.nav-aside
+{
+    width:20%;
+    height:100%;
+}
+
+.navigation
+{
+    width:60%;
+    height:100%;
+}
