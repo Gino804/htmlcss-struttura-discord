@@ -12,8 +12,9 @@
 header
 {
     display:flex;
+    flex-direction:column;
     background-color:#ADD8E6;
-    height:70px;
+    height:500px;
 }
 
 /* Utilities */
@@ -28,14 +29,14 @@ header
     border:2px dashed black;
 }
 
-/* Header */
+/* Navigation bar */
 
 .navigation-container
 {
     display:flex;
     background-color:#DAA520;
     height:40px;
-    margin:auto;
+    margin:15px auto;
 }
 
 .nav-aside
@@ -48,4 +49,23 @@ header
 {
     width:60%;
     height:100%;
+}
+
+/* Introduction */
+
+.introduction-flex
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:calc(100% - 70px);
+    background-color:#00008B;
+}
+
+.introduction-container
+{
+    background-color:#EE82EE;
+    width:50%;
+    height:80%;
 }
