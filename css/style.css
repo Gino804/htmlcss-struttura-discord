@@ -14,7 +14,6 @@ header
     display:flex;
     flex-direction:column;
     background-color:#ADD8E6;
-    height:500px;
 }
 
 /* Utilities */
@@ -67,5 +66,46 @@ header
 {
     background-color:#EE82EE;
     width:50%;
-    height:80%;
+    height:400px;
+    margin:50px;
+}
+
+/* Main */
+
+.section-container
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.section-container:nth-child(even)
+{
+    background-color:#D3D3D3;
+}
+
+.section
+{
+    height:500px;
+    display:flex;
+    margin:50px;
+}
+
+.section-image
+{
+    background-color:#1E90FF;
+    width:60%;
+}
+
+.section-text
+{
+    background-color:#FFC0CB;
+    width:40%;
+}
+
+.last-section
+{
+    background-color:#228B22;
+    height:1000px;
+    margin:50px;
 }
