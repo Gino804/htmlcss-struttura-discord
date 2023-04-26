@@ -16,6 +16,15 @@ header
     background-color:#ADD8E6;
 }
 
+footer
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#23272A;
+}
+
 /* Utilities */
 
 .width-70
@@ -26,6 +35,13 @@ header
 .borders
 {
     border:2px dashed black;
+}
+
+.separator
+{
+    height:2px;
+    width:100%;
+    background-color: white;
 }
 
 /* Navigation bar */
@@ -108,4 +124,50 @@ header
     background-color:#228B22;
     height:1000px;
     margin:50px;
+}
+
+/* Footer */
+
+.info-container
+{
+    display:flex;
+    height:600px;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+
+.socials-info
+{
+    width:30%;
+    background-color:#F08080;
+}
+
+.discord-info
+{
+    width:70%;
+    background-color:#20B2AA;
+    display:flex;
+}
+
+.info-column
+{
+    width:25%;
+    border:2px dashed white;
+}
+
+.footer-bar
+{
+    background-color:#7FFFD4;
+    height:100px;
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.footer-bar-element
+{
+    background-color:#FFB6C1;
+    width:7%;
+    height:40px;
 }
