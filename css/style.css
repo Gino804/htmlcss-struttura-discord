@@ -56,13 +56,13 @@ footer
 
 .nav-aside
 {
-    width:20%;
+    flex-basis:20%;
     height:100%;
 }
 
 .navigation
 {
-    width:60%;
+    flex-basis:60%;
     height:100%;
 }
 
@@ -73,7 +73,6 @@ footer
     display:flex;
     justify-content:center;
     align-items:center;
-    width:100%;
     height:calc(100% - 70px);
     background-color:#00008B;
 }
@@ -81,7 +80,7 @@ footer
 .introduction-container
 {
     background-color:#EE82EE;
-    width:50%;
+    flex-basis:50%;
     height:400px;
     margin:50px;
 }
@@ -110,13 +109,13 @@ footer
 .section-image
 {
     background-color:#1E90FF;
-    width:60%;
+    flex-basis:60%;
 }
 
 .section-text
 {
     background-color:#FFC0CB;
-    width:40%;
+    flex-basis:40%;
 }
 
 .last-section
@@ -138,20 +137,20 @@ footer
 
 .socials-info
 {
-    width:30%;
+    flex-basis:30%;
     background-color:#F08080;
 }
 
 .discord-info
 {
-    width:70%;
+    flex-basis:70%;
     background-color:#20B2AA;
     display:flex;
 }
 
 .info-column
 {
-    width:25%;
+    flex-basis:25%;
     border:2px dashed white;
 }
 
@@ -168,6 +167,6 @@ footer
 .footer-bar-element
 {
     background-color:#FFB6C1;
-    width:7%;
+    flex-basis:7%;
     height:40px;
 }
